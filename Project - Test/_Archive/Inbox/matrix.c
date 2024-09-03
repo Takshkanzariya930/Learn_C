@@ -2,7 +2,6 @@
 
 void main()
 {
-
     int num[3][3],i,j,k;
 
     for(i=0;i<3;i++)
@@ -12,7 +11,9 @@ void main()
             scanf("%d",&num[i][j]);
         }
     }
+
     printf("\n");
+    
     for(i=0;i<3;i++)
     {
         for(j=0;j<3;j++)
@@ -21,5 +22,4 @@ void main()
         }
         printf("\n");
     }
-
 }
