@@ -21,5 +21,5 @@ void main()
         sum = sum + num[i];
     }
 
-    printf("sum is %.2f",sum/n);
+    printf("Average is %.2f",sum/n);
 }
