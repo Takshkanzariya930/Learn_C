@@ -1,0 +1,3 @@
+AtomicNumber,Name,Symbol,AtomicMass,Group,Period,Block,ElecronConfiguration,MetallicCharacter,PhysicalState
+1,Hydrogen,H,1.008,1,1,s,1s^1,Non metal,Gas
+2,Helium,He,4.003,18,1,p,1s^2,Non metal,Gas
