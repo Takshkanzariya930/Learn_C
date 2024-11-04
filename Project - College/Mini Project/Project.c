@@ -44,8 +44,8 @@ int search(int num) {
   printf("Group : %s\n", temp[4]);
   printf("Period : %s\n", temp[5]);
   printf("Block : %s\n", temp[6]);
-  printf("Elecron Configuration : %s\n", temp[7]);
-  printf("Metalic Character : %s\n", temp[8]);
+  printf("Electron Configuration : %s\n", temp[7]);
+  printf("Metallic Character : %s\n", temp[8]);
   printf("Physical State : %s\n", temp[9]);
   printf("\n--------------------------------------------------------------");
 }
