@@ -1,0 +1,119 @@
+Atomic Number,Name,Symbol,Atomic Mass (u),Group,Period,Electron Configuration,Metallic Character,Physical State
+1,Hydrogen,H,1.008,1,1,1s¹,Non-metal,Gas
+2,Helium,He,4.0026,18,1,1s²,Non-metal,Gas
+3,Lithium,Li,6.94,1,2,[He] 2s¹,Metal,Solid
+4,Beryllium,Be,9.0122,2,2,[He] 2s²,Metal,Solid
+5,Boron,B,10.81,13,2,[He] 2s² 2p¹,Metalloid,Solid
+6,Carbon,C,12.011,14,2,[He] 2s² 2p²,Non-metal,Solid
+7,Nitrogen,N,14.007,15,2,[He] 2s² 2p³,Non-metal,Gas
+8,Oxygen,O,15.999,16,2,[He] 2s² 2p⁴,Non-metal,Gas
+9,Fluorine,F,18.998,17,2,[He] 2s² 2p⁵,Non-metal,Gas
+10,Neon,Ne,20.18,18,2,[He] 2s² 2p⁶,Non-metal,Gas
+11,Sodium,Na,22.99,1,3,[Ne] 3s¹,Metal,Solid
+12,Magnesium,Mg,24.305,2,3,[Ne] 3s²,Metal,Solid
+13,Aluminum,Al,26.982,13,3,[Ne] 3s² 3p¹,Metal,Solid
+14,Silicon,Si,28.085,14,3,[Ne] 3s² 3p²,Metalloid,Solid
+15,Phosphorus,P,30.974,15,3,[Ne] 3s² 3p³,Non-metal,Solid
+16,Sulfur,S,32.06,16,3,[Ne] 3s² 3p⁴,Non-metal,Solid
+17,Chlorine,Cl,35.45,17,3,[Ne] 3s² 3p⁵,Non-metal,Gas
+18,Argon,Ar,39.948,18,3,[Ne] 3s² 3p⁶,Non-metal,Gas
+19,Potassium,K,39.0983,1,4,[Ar] 4s¹,Metal,Solid
+20,Calcium,Ca,40.078,2,4,[Ar] 4s²,Metal,Solid
+21,Scandium,Sc,44.955,3,4,[Ar] 3d¹ 4s²,Metal,Solid
+22,Titanium,Ti,47.867,4,4,[Ar] 3d² 4s²,Metal,Solid
+23,Vanadium,V,50.9415,5,4,[Ar] 3d³ 4s²,Metal,Solid
+24,Chromium,Cr,51.9961,6,4,[Ar] 3d⁵ 4s¹,Metal,Solid
+25,Manganese,Mn,54.938,7,4,[Ar] 3d⁵ 4s²,Metal,Solid
+26,Iron,Fe,55.845,8,4,[Ar] 3d⁶ 4s²,Metal,Solid
+27,Cobalt,Co,58.933,9,4,[Ar] 3d⁷ 4s²,Metal,Solid
+28,Nickel,Ni,58.693,10,4,[Ar] 3d⁸ 4s²,Metal,Solid
+29,Copper,Cu,63.546,11,4,[Ar] 3d¹⁰ 4s¹,Metal,Solid
+30,Zinc,Zn,65.38,12,4,[Ar] 3d¹⁰ 4s²,Metal,Solid
+31,Gallium,Ga,69.723,13,4,[Ar] 3d¹⁰ 4s² 4p¹,Metal,Solid
+32,Germanium,Ge,72.63,14,4,[Ar] 3d¹⁰ 4s² 4p²,Metalloid,Solid
+33,Arsenic,As,74.9216,15,4,[Ar] 3d¹⁰ 4s² 4p³,Metalloid,Solid
+34,Selenium,Se,78.96,16,4,[Ar] 3d¹⁰ 4s² 4p⁴,Non-metal,Solid
+35,Bromine,Br,79.904,17,4,[Ar] 3d¹⁰ 4s² 4p⁵,Non-metal,Liquid
+36,Krypton,Kr,83.798,18,4,[Ar] 3d¹⁰ 4s² 4p⁶,Non-metal,Gas
+37,Rubidium,Rb,85.4678,1,5,[Kr] 5s¹,Metal,Solid
+38,Strontium,Sr,87.62,2,5,[Kr] 5s²,Metal,Solid
+39,Yttrium,Y,88.9059,3,5,[Kr] 4d¹ 5s²,Metal,Solid
+40,Zirconium,Zr,91.224,4,5,[Kr] 4d² 5s²,Metal,Solid
+41,Niobium,Nb,92.90637,5,5,[Kr] 4d⁴ 5s²,Metal,Solid
+42,Molybdenum,Mo,95.94,6,5,[Kr] 4d⁵ 5s¹,Metal,Solid
+43,Technetium,Tc,98,7,5,[Kr] 4d⁵ 5s²,Metal,Solid
+44,Ruthenium,Ru,101.07,8,5,[Kr] 4d⁷ 5s¹,Metal,Solid
+45,Rhodium,Rh,102.9055,9,5,[Kr] 4d⁸ 5s¹,Metal,Solid
+46,Palladium,Pd,106.42,10,5,[Kr] 4d¹⁰,Metal,Solid
+47,Silver,Ag,107.8682,11,5,[Kr] 4d¹⁰ 5s¹,Metal,Solid
+48,Cadmium,Cd,112.414,12,5,[Kr] 4d¹⁰ 5s²,Metal,Solid
+49,Indium,In,114.818,13,5,[Kr] 4d¹⁰ 5s² 5p¹,Metal,Solid
+50,Tin,Sn,118.71,14,5,[Kr] 4d¹⁰ 5s² 5p²,Metal,Solid
+51,Antimony,Sb,121.76,15,5,[Kr] 4d¹⁰ 5s² 5p³,Metalloid,Solid
+52,Tellurium,Te,127.6,16,5,[Kr] 4d¹⁰ 5s² 5p⁴,Non-metal,Solid
+53,Iodine,I,126.90447,17,5,[Kr] 4d¹⁰ 5s² 5p⁵,Non-metal,Solid
+54,Xenon,Xe,131.293,18,5,[Kr] 4d¹⁰ 5s² 5p⁶,Non-metal,Gas
+55,Cesium,Cs,132.90545196,1,6,[Xe] 6s¹,Metal,Solid
+56,Barium,Ba,137.327,2,6,[Xe] 6s²,Metal,Solid
+57,Lanthanum,La,138.90547,3,6,[Xe] 6s² 5d¹,Metal,Solid
+58,Cerium,Ce,140.116,3,6,[Xe] 6s² 4f¹,Metal,Solid
+59,Praseodymium,Pr,140.90766,3,6,[Xe] 6s² 4f³,Metal,Solid
+60,Neodymium,Nd,144.242,3,6,[Xe] 6s² 4f⁴,Metal,Solid
+61,Promethium,Pm,145,3,6,[Xe] 6s² 4f⁵,Metal,Solid
+62,Samarium,Sm,150.36,3,6,[Xe] 6s² 4f⁶,Metal,Solid
+63,Europium,Eu,151.964,3,6,[Xe] 6s² 4f⁷,Metal,Solid
+64,Gadolinium,Gd,157.25,3,6,[Xe] 6s² 4f⁸,Metal,Solid
+65,Terbium,Tb,158.92535,3,6,[Xe] 6s² 4f⁹,Metal,Solid
+66,Dysprosium,Dy,162.5,3,6,[Xe] 6s² 4f¹⁰,Metal,Solid
+67,Holmium,Ho,164.93033,3,6,[Xe] 6s² 4f¹¹,Metal,Solid
+68,Erbium,Er,167.259,3,6,[Xe] 6s² 4f¹²,Metal,Solid
+69,Thulium,Tm,168.93422,3,6,[Xe] 6s² 4f¹³,Metal,Solid
+70,Ytterbium,Yb,173.04,3,6,[Xe] 6s² 4f¹⁴,Metal,Solid
+71,Lutetium,Lu,174.9663,3,6,[Xe] 6s² 4f¹⁵ 5d¹,Metal,Solid
+72,Hafnium,Hf,178.49,4,6,[Xe] 6s² 4f¹⁴ 5d²,Metal,Solid
+73,Tantalum,Ta,180.94788,5,6,[Xe] 6s² 4f¹⁴ 5d³,Metal,Solid
+74,Tungsten,W,183.84,6,6,[Xe] 6s² 4f¹⁴ 5d⁴,Metal,Solid
+75,Rhenium,Re,186.207,7,6,[Xe] 6s² 4f¹⁴ 5d⁵,Metal,Solid
+76,Osmium,Os,190.23,8,6,[Xe] 6s² 4f¹⁴ 5d⁶,Metal,Solid
+77,Iridium,Ir,192.217,9,6,[Xe] 6s² 4f¹⁴ 5d⁷,Metal,Solid
+78,Platinum,Pt,195.084,10,6,[Xe] 6s² 4f¹⁴ 5d⁸,Metal,Solid
+79,Gold,Au,196.96657,11,6,[Xe] 6s² 4f¹⁴ 5d¹⁰,Metal,Solid
+80,Mercury,Hg,200.592,12,6,[Xe] 6s² 4f¹⁴ 5d¹⁰,Metal,Liquid
+81,Thallium,Tl,204.38,13,6,[Xe] 6s² 4f¹⁴ 5d¹⁰ 6p¹,Metal,Solid
+82,Lead,Pb,207.2,14,6,[Xe] 6s² 4f¹⁴ 5d¹⁰ 6p²,Metal,Solid
+83,Bismuth,Bi,208.9804,15,6,[Xe] 6s² 4f¹⁴ 5d¹⁰ 6p³,Metal,Solid
+84,Polonium,Po,209,16,6,[Xe] 6s² 4f¹⁴ 5d¹⁰ 6p⁴,Metalloid,Solid
+85,Astatine,At,210,17,6,[Xe] 6s² 4f¹⁴ 5d¹⁰ 6p⁵,Non-metal,Solid
+86,Radon,Rn,222,18,6,[Xe] 6s² 4f¹⁴ 5d¹⁰ 6p⁶,Non-metal,Gas
+87,Francium,Fr,223,1,7,[Rn] 7s¹,Metal,Solid
+88,Radium,Ra,226.0254,2,7,[Rn] 7s²,Metal,Solid
+89,Actinium,Ac,227,3,7,[Rn] 7s² 6d¹,Metal,Solid
+90,Thorium,Th,232.0377,4,7,[Rn] 7s² 6d²,Metal,Solid
+91,Protactinium,Pa,231.03588,5,7,[Rn] 7s² 5f²,Metal,Solid
+92,Uranium,U,238.02891,6,7,[Rn] 7s² 5f³,Metal,Solid
+93,Neptunium,Np,237,7,7,[Rn] 7s² 5f⁴,Metal,Solid
+94,Plutonium,Pu,244,8,7,[Rn] 7s² 5f⁶,Metal,Solid
+95,Americium,Am,243,3,7,[Rn] 7s² 5f⁷,Metal,Solid
+96,Curium,Cm,247,4,7,[Rn] 7s² 5f⁷ 6d¹,Metal,Solid
+97,Berkelium,Bk,247,5,7,[Rn] 7s² 5f⁸,Metal,Solid
+98,Californium,Cf,251,6,7,[Rn] 7s² 5f⁹,Metal,Solid
+99,Einsteinium,Es,252,7,7,[Rn] 7s² 5f¹⁰,Metal,Solid
+100,Fermium,Fm,257,3,7,[Rn] 7s² 5f¹¹,Metal,Solid
+101,Mendelevium,Md,258,4,7,[Rn] 7s² 5f¹²,Metal,Solid
+102,Nobelium,No,259,5,7,[Rn] 7s² 5f¹³,Metal,Solid
+103,Lawrencium,Lr,266,3,7,[Rn] 7s² 5f¹⁴ 6d¹,Metal,Solid
+104,Rutherfordium,Rf,267,4,7,[Rn] 7s² 5f¹⁴ 6d²,Metal,Solid
+105,Dubnium,Db,268,5,7,[Rn] 7s² 5f¹⁴ 6d³,Metal,Solid
+106,Seaborgium,Sg,271,6,7,[Rn] 7s² 5f¹⁴ 6d⁴,Metal,Solid
+107,Bohrium,Bh,270,7,7,[Rn] 7s² 5f¹⁴ 6d⁵,Metal,Solid
+108,Hassium,Hs,277,8,7,[Rn] 7s² 5f¹⁴ 6d⁶,Metal,Solid
+109,Meitnerium,Mt,276,9,7,[Rn] 7s² 5f¹⁴ 6d⁷,Metal,Solid
+110,Darmstadtium,Ds,281,10,7,[Rn] 7s² 5f¹⁴ 6d⁸,Metal,Solid
+111,Roentgenium,Rg,282,11,7,[Rn] 7s² 5f¹⁴ 6d⁹,Metal,Solid
+112,Copernicium,Cn,285,12,7,[Rn] 7s² 5f¹⁴ 6d¹⁰,Metal,Solid
+113,Nihonium,Nh,286,13,7,[Rn] 7s² 5f¹⁴ 6d¹⁰ 7p¹,Metal,Solid
+114,Flerovium,Fl,289,14,7,[Rn] 7s² 5f¹⁴ 6d¹⁰ 7p²,Metal,Solid
+115,Moscovium,Mc,288,15,7,[Rn] 7s² 5f¹⁴ 6d¹⁰ 7p³,Metal,Solid
+116,Livermorium,Lv,293,16,7,[Rn] 7s² 5f¹⁴ 6d¹⁰ 7p⁴,Non-metal,Solid
+117,Tennessine,Ts,294,17,7,[Rn] 7s² 5f¹⁴ 6d¹⁰ 7p⁵,Non-metal,Solid
+118,Oganesson,Og,294,18,7,[Rn] 7s² 5f¹⁴ 6d¹⁰ 7p⁶,Non-metal,Gas

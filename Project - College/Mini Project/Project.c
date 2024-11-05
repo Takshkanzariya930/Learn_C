@@ -4,7 +4,7 @@
 char st[150][200];
 
 int infoex() {
-  FILE *fb = fopen("name.csv", "r");
+  FILE *fb = fopen("periodictable.csv", "r");
 
   if (fb == NULL) {
     printf("Unable to load file\n");
@@ -36,18 +36,17 @@ int search(int num) {
     pointer = strtok(NULL, ",");
   }
 
-  printf("\n\n--------------------------------------------------------------");
-  printf("\n\nInformation on element with atomic number %d.\n\n", num);
-  printf("Name : %s\n", temp[1]);
-  printf("Symbol : %s\n", temp[2]);
-  printf("Atonic Mass : %s\n", temp[3]);
-  printf("Group : %s\n", temp[4]);
-  printf("Period : %s\n", temp[5]);
-  printf("Block : %s\n", temp[6]);
-  printf("Electron Configuration : %s\n", temp[7]);
-  printf("Metallic Character : %s\n", temp[8]);
-  printf("Physical State : %s\n", temp[9]);
-  printf("\n--------------------------------------------------------------");
+  printf("\n\n\033[1;35m--------------------------------------------------------------\e[0m");
+  printf("\n\nInformation on element with atomic number \033[1;32m%d.\e[0m\n\n", num);
+  printf("Name : \033[1;36m%s\e[0m\n", temp[1]);
+  printf("Symbol : \033[1;36m%s\e[0m\n", temp[2]);
+  printf("Atonic Mass : \033[1;36m%s\e[0m\n", temp[3]);
+  printf("Group : \033[1;36m%s\e[0m\n", temp[4]);
+  printf("Period : \033[1;36m%s\e[0m\n", temp[5]);
+  printf("Electron Configuration : \033[1;36m%s\e[0m\n", temp[6]);
+  printf("Metallic Character : \033[1;36m%s\e[0m\n", temp[7]);
+  printf("Physical State : \033[1;36m%s\e[0m\n", temp[8]);
+  printf("\033[1;35m--------------------------------------------------------------\e[0m");
 }
 
 int main() {
@@ -65,12 +64,12 @@ int main() {
     infoex();
     search(n);
 
-    printf("\nIf you want to continue press 1 else press 0 : ");
+    printf("\n\nIf you want to continue press 1 else press 0 : ");
     scanf("%d", &check);
-  
+
   } while (check == 1);
 
-  printf("Thank you for using this program.");
+  printf("\n\n\033[0;31mThank you for using this program.\e[0m");
 
       return 0;
 }
