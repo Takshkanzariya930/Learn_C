@@ -57,7 +57,7 @@ int main() {
     scanf("%d", &n);
 
     if (n > 118) {
-      printf("Invalid Atomic number.");
+      printf("\033[0;31mInvalid Atomic number.\e[0m");
       return 0;
     }
 
@@ -69,7 +69,7 @@ int main() {
 
   } while (check == 1);
 
-  printf("\n\n\033[0;31mThank you for using this program.\e[0m");
+  printf("\n\033[0;31mThank you for using this program.\e[0m");
 
       return 0;
 }
