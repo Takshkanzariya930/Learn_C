@@ -14,14 +14,14 @@ void main()
     {
     	fac = 1; 
 
-       for(int j=1;j<=i;j++)
-       {
-       		fac = fac * j;
-       }
+      for(int j=1;j<=i;j++)
+      {
+         fac = fac * j;
+      }
 
-        total = total + (1/fac);
+      total = total + (1/fac);
 
     }
 
-    printf("\nAnswer of this series is %.f",total);
+    printf("\nAnswer of this series is %f",total);
 }

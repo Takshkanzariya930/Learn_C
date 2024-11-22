@@ -10,21 +10,21 @@ char separated_data[20][60];
 // "extractinfo" extracts data from "periodictable.csv" and store it in global variable "st".
 int extractinfo() {
 
-  FILE *fb = fopen("periodictable.csv", "r"); //Declaring pointer variable to open "periodictable.csv".
+  FILE *fp = fopen("periodictable.csv", "r"); //Declaring pointer variable to open "periodictable.csv".
   int i = 0;
 
   // Raises an exception if "periodictable.csv" is not found.
-  if (fb == NULL) {
+  if (fp == NULL) {
     printf("Unable to load file\n");
     return 1;
   }
 
   // Stores line by line data to "st" from "periodictable.csv" until line becomes "NULL" or exedees 150th line.
-  while ((fgets(st[i], 200, fb) != NULL) && (i < 150)) {
+  while ((fgets(st[i], 200, fp) != NULL) && (i < 150)) {
     i++;
   }
 
-  fclose(fb); //Closes "periodictable.csv".
+  fclose(fp); //Closes "periodictable.csv".
 
   return 0;
 
