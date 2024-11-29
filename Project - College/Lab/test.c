@@ -2,13 +2,18 @@
 
 int main()
 {
+	int a=21,b=32,c=2;
 
-	int i = 5,fac=1;
-
-	for(int j=1;j<=i;j++)
-		{
-			fac = fac * j;
-		}
-
-	printf("%d",fac);
+	if(a>b>c)
+	{
+		printf("a");
+	}
+	else if(b>a>c)
+	{
+		printf("a");
+	}
+	else if(c>a>b)
+	{
+		printf("a");
+	}
 }

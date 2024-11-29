@@ -22,8 +22,20 @@ int main()
 		scanf("%[^\n]",st[i].name);
 
 		printf("Enrollment number : ");
-		scanf("%d",st[i].enrollment_number);
+		scanf("%d",&st[i].enrollment_number);
 
-		printf("")
+		printf("Marks of [1] : ");
+		scanf("%d",&st[i].mark[0]);
+
+		printf("Marks of [2] : ");
+		scanf("%d",&st[i].mark[1]);
+
+		printf("Marks of [3] : ");
+		scanf("%d",&st[i].mark[2]);
+	}
+
+	for(i=0:i<n;i++)
+	{
+		
 	}
 }

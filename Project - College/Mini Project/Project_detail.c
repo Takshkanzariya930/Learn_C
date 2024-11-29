@@ -8,8 +8,8 @@ char st[150][200];
 char separated_data[20][60];
 
 // "extractinfo" extracts data from "periodictable.csv" and store it in global variable "st".
-int extractinfo() {
-
+int extractinfo()
+{
   FILE *fp = fopen("periodictable.csv", "r"); //Declaring pointer variable to open "periodictable.csv".
   int i = 0;
 
@@ -27,20 +27,19 @@ int extractinfo() {
   fclose(fp); //Closes "periodictable.csv".
 
   return 0;
-
 }
 
 // "searchinfo" search the required element in "st" and separates it from ",".
-int searchinfo(int num) {
-
-  char temp[200]; //Declaring "temp" to store single line or data of single element from "st".
+int searchinfo(int num)
+{
+  char buffer[200]; //Declaring "buffer" to store single line or data of single element from "st".
   int i = 0, j = 0;
 
-  strcpy(temp, st[num]); //Storing data of single element in "temp" from "st".
+  strcpy(buffer, st[num]); //Storing data of single element in "buffer" from "st".
 
   char *portion; //Declaring a pointer variable to point at the portion of string.
 
-  portion = strtok(temp, ","); //Points at portion of string which is present before encountering "," in string.
+  portion = strtok(buffer, ","); //Points at portion of string which is present before encountering "," in string.
 
   // Repete the process untill portion of string before encountering "," is "NULL".
   while (portion != NULL) {
@@ -54,8 +53,8 @@ int searchinfo(int num) {
 }
 
 // "printinfo" prints the information related to requested element.
-int printinfo(int num){
-
+int printinfo(int num)
+{
   printf("\n\n\033[1;35m--------------------------------------------------------------\e[0m");
   printf("\n\nInformation on element with atomic number \033[1;32m%d.\e[0m\n\n", num);
   printf("Name : \033[1;36m%s\e[0m\n", separated_data[1]);
@@ -69,13 +68,14 @@ int printinfo(int num){
   printf("\033[1;35m--------------------------------------------------------------\e[0m");
 
   return 0;
-
 }
 
-int main() {
-  int n, check;
+int main() 
+{
+  int n, check=1;
 
-  do {
+  while(check == 1) {
+    
     printf("\nEnter atomic number to search information of element : ");
     scanf("%d", &n);
 
@@ -93,9 +93,9 @@ int main() {
     printf("\n\nIf you want to continue press 1 else press 0 : ");
     scanf("%d", &check);
 
-  } while (check == 1);
+  }
 
   printf("\n\033[0;31mThank you for using this program.\e[0m");
 
-      return 0;
+  return 0;
 }

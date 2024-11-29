@@ -3,7 +3,6 @@
 float add(float a,float b)
 {
 	printf("\nResult is %f",a+b);
-
 }
 
 float sub(float a,float b)
@@ -39,27 +38,31 @@ int main()
 
 	switch(op)
 	{
-	case '+':
-	{
-		add(x,y);
-		break;
-	}
-	case '-':
-	{
-		sub(x,y);
-		break;
-	}
-	case '*':
-	{
-		mul(x,y);
-		break;
-	}
-	case '/':
-	{
-		div(x,y);
-		break;
-	}
-	default:
-		printf("\nINVALID OPERATORE.");
+		case '+':
+		{
+			add(x,y);
+			break;
+		}
+
+		case '-':
+		{
+			sub(x,y);
+			break;
+		}
+
+		case '*':
+		{
+			mul(x,y);
+			break;
+		}
+
+		case '/':
+		{
+			div(x,y);
+			break;
+		}
+		
+		default:
+			printf("\nINVALID OPERATORE.");
 	}
 }

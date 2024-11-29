@@ -13,5 +13,5 @@ int main()
 		n++;
 	}
 
-	printf("Length of the given strint \"%s\" is %d",st,n);
+	printf("Length of the given string \"%s\" is %d",st,n);
 }

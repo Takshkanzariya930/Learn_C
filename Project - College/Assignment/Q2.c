@@ -32,4 +32,11 @@ int main()
 	{
 		printf("[%d] element : %d\n",i+1,arr[i]);
 	}
+
+	printf("\nDescending order:\n");
+
+	for(i=(n-1);i>=0;i--)
+	{
+		printf("[%d] element : %d\n",i+1,arr[i]);
+	}
 }
