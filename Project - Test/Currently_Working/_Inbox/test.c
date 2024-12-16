@@ -2,37 +2,16 @@
 
 void main()
 {
-	int n,i,j,temp;
+	int i,n;
+	float term = 100;
 
-	printf("Enter number of elements you want to store : ");
+	printf("Enter no of terms : ");
 	scanf("%d",&n);
 
-	int arr[n];
-
 	for(i=0;i<n;i++)
 	{
-		printf("Enter [%d] element : ",i+1);
-		scanf("%d",&arr[i]);
+		printf("\n%.2f ",term);
+
+		term = term/2;
 	}
-
-	for(i=0;i<n;i++)
-	{
-		for(j=0;j<n-i;j++)
-		{
-			if(arr[j] > arr[j+1])
-			{
-				temp = arr[j];
-				arr[j] = arr[j+1];
-				arr[j+1] = temp;
-			}
-		}
-	}
-
-	printf("\nPrinting array.....");
-
-    for(i=0;i<n;i++)
-	{
-		printf("\n[%d] element is : %d",i+1,arr[i]);
-	}
-
 }
