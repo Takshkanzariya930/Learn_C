@@ -2,7 +2,5 @@
 
 int main()
 {
-
     printf("Hello setting up repo");
-
 }
