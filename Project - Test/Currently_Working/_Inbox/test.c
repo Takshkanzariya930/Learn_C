@@ -1,12 +1,36 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
-	int arr[5];
+	int n,i,j,temp;
 
-	printf("Enter value : ");
-	scanf("%d",arr);
+	printf("Enter number of elements you want to store : ");
+	scanf("%d",&n);
 
-	printf("\n%d",*arr);
-	printf("\n%d",arr[0]);
+	int arr[n];
+
+	for(i=0;i<n;i++)
+	{
+		printf("Enter [%d] element : ",i+1);
+		scanf("%d",&arr[i]);
+	}
+
+	for(i=0;i<(n-1);i++)
+	{	
+		for(j=0;j<(n-1-i);j++)
+		{
+			if(arr[j] > arr[j+1])
+			{
+				temp = arr[j];
+				arr[j] = arr[j+1];
+				arr[j+1] = temp;
+			}
+		}
+	}
+
+	printf("\nPrinting array.....");
+
+    for(i=0;i<n;i++)
+	{
+		printf("\n[%d] element is : %d",i+1,arr[i]);
+	}
 }
