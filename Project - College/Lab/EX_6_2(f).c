@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-int main()
+void feb(int n)
 {
-    int i,n,f1=0,f2=1,term;
-
-    printf("Enter number of terms you want : ");
-    scanf("%d",&n);
+    int i,f1=0,f2=1,term;
 
     for(i=0;i<n;i++)
     {
@@ -24,4 +21,14 @@ int main()
             printf("\n%d",term);
         }
     }
+}
+
+int main()
+{
+    int i,n,f1=0,f2=1,term;
+
+    printf("Enter number of terms you want : ");
+    scanf("%d",&n);
+
+    feb(n);
 }
