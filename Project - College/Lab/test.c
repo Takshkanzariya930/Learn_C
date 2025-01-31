@@ -18,7 +18,6 @@ int main()
 	printf("%d\n",ptr2);
 
 	ptr2 = ptr2 + 1;
-	arr = arr + 1;
 
 	printf("%d\n",*(ptr2+1));
 	printf("%d", *(arr+1));
